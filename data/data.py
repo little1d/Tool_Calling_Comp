@@ -1,8 +1,8 @@
 from modelscope import MsDataset
 
-dataset = MsDataset.load("swift/function_call_competition", split="train")
+train_dataset = MsDataset.load("swift/function_call_competition", split="train")
 test_dataset = MsDataset.load("swift/function_call_competition", split="test")
-print(dataset)
+print(train_dataset)
 print(test_dataset)
 """
 Dataset({
